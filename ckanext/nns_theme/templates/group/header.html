@@ -1,0 +1,24 @@
+{% extends "header.html" %}
+{% block header_site_search %}
+ <form class="section site-search simple-input" action="{% url_for controller='package', action='search' %}" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
+            <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search') }}" />
+            <button class="btn-search" type="submit"><i class="icon-search"></i></button>
+          </div>
+ </form>
+{% endblock %}
+{% block promoted %}
+<div class="row row-padded">
+        <div class="row row1">
+            <div class="container">
+                <div class="span12 col1">
+                    <h3 class="heading page">{{ _("Topics") }}</h3>
+                </div>
+            </div>
+        </div>
+</div>
+{% endblock %}
+
+
+

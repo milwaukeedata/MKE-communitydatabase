@@ -1,0 +1,459 @@
+/*  Header
+
+*/
+.account-masthead {
+    background: none;
+    background-color: rgb(40, 40, 40);
+    margin: 0 !important;
+}
+
+.hgroup.header-image.pull-left {
+    float: left;
+    vertical-align: initial;
+    width: 440px;
+    margin-right: -100px;
+    padding: 10px;
+}
+
+.masthead .navigation {
+    margin-right: -176px;
+    float: none;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.masthead .navigation .nav-pills li a {
+	padding-top: 4px;
+}
+
+header.navbar.navbar-static-top.masthead {
+    background-color: white;
+    background-image: none;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+.navbar .nav>li>a {
+    font-size: large;
+    color: #464646;
+    font-weight: 600;
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+	box-shadow: none;
+	webkit-box-shadow: none;
+}
+
+.btn-group-vertical {
+    float: right;
+    padding-top: 10px;
+}
+
+.search-form.no-bottom-border {
+    border-bottom-width: 0;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+/*
+    Body
+*/
+
+body {
+background-color: rgb(40, 40, 40);
+padding: 0px 0px;
+
+}
+
+html {
+background: rgb(40, 40, 40);
+}
+
+.hero {
+    background: none;
+    background-color: white;
+}
+
+[role=main], .main {
+    background: none;
+    background-color: white;
+}
+
+.wrapper {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.media-grid {
+    margin: 0;
+    list-style: none;
+    margin: 0 -25px;
+    padding-bottom: 15px;
+    border: none;
+    background: none;
+}
+
+.module-content.box {
+    background-color: #240F7C;
+    color: white;
+}
+
+.box {
+    border: none;
+    box-shadow: none;
+}
+
+.span5.attribution {
+    margin-left: 114px;
+    width: 248px;
+}
+
+form.module-content.search-form {
+    background-color: #200a7a;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333333;
+}
+
+[class*="span"] {
+    margin-left: 0px !important;
+}
+
+.media-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+button.btn.btn-primary {
+    background-image: none;
+}
+
+
+a.btn.btn-primary:hover {
+    background-color: #200a7a;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    background-image: none;
+    background-color: #200a7a;
+}
+a.btn {
+    background-color: #200a7a;
+}
+
+.btn-primary {
+    background-color: #200a7a;
+}
+
+a, a:hover, a:active, a:focus  {
+    color: #200a7a;
+}
+
+/*
+    Homepage
+*/
+
+.homepage .box .inner {
+    padding: 20px 25px;
+    text-align: center;
+}
+.row.row1 {
+    background-color: #240F7C;
+}
+.row.row2, .row.row3, .row.row4 {
+    background-color: white;
+}
+
+.row.row5 {
+    background-color: #240F7C;
+    padding-bottom: 115px;
+}
+.row.row6 {
+    background-color: white;
+    padding-top: 25px;
+}
+li.media-item.parent.masonry-brick {
+    float: right !important;
+    position: relative !important;
+    width: 128px;
+}
+.homepage.media-grid {
+	display:block;
+    margin-left: -20px;
+    max-width: 1000px;
+}
+
+.homepage.media-item {
+    position: relative;
+    float: left;
+    width: 189px;
+    padding: 15px;
+    margin: 15px 0 0 15px;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 19px;
+}
+
+.homepage .module-search .tags {
+    background-color: #200a7a;
+}
+
+.homepage .module-search .module-content {
+    background-color: white;
+}
+
+.homepage [role=main] {
+    padding: 0px 0;
+}
+
+h3.heading.front.org {
+    color: #333333;
+    border-bottom: 1px solid #808080;
+    border-width: 2px;
+    margin-top: -40px;
+}
+
+h3.heading.front {
+    color: #333333;
+    border-bottom: 1px solid #808080;
+    border-width: 2px;
+}
+
+h3.heading.highlights {
+    color: white;
+    border-bottom: 1px solid white;
+    border-width: 2px;
+}
+
+p.stats {
+    font-size: 22px;
+}
+.homepage.layout-2 .stats {
+    margin-top: -14px;
+    margin-bottom: 21px;
+}
+
+p.highlights {
+    color: white;
+    background-color: #240F7C;
+}
+
+a.btn.btn-primary.home {
+    background-color: #ccc;
+    background-image: none;
+    margin-bottom: 7px;
+    color: #240F7C;
+    text-shadow: none;
+    float: none;
+}
+
+@media (min-width: 982px) {
+    .masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+        background-color: transparent;
+        color: #464646;
+        border-bottom: 4px solid #F5A623;
+        webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 982px) {
+    .masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+        background-color: transparent;
+        color: #F5A623;
+        border-bottom: none;
+        webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+    }
+}
+@media (max-width: 550px) {
+    .homepage.media-grid {
+        margin: 0 !important;
+        padding: 10px 0 !important;
+    }
+    .homepage.media-item {
+        float: none;
+        width: inherit;
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-left: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+}
+}
+
+/*
+    Footer
+*/
+
+.site-footer {
+    margin: 0 !important;
+}
+
+footer.site-footer {
+    background-color: #200a7a;
+    background-image: none;
+}
+
+/*
+    Other Pages
+*/
+
+.media-item {
+    text-align: center;
+}
+h3.heading.page {
+    color: white;
+    margin-left: 15px;
+    font-size: 21px;
+}
+h3.heading.page {
+    color: white;
+    margin-left: 15px;
+    font-size: 22px;
+    padding: 7px;
+}
+a.btn.btn-success {
+    border: 1px solid #dddddd;
+}
+button.btn.btn-primary:focus {
+    background-color: rgb(17, 5, 66);
+}
+
+a:hover, a:focus {
+    color: #F5A623;
+    text-decoration: underline;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: #f89406;
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #f89406;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(82,168,236,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #f89406;
+}
+.search-form .search-input.search-giant button {
+    right: 15px;
+    height: 30px;
+}
+
+.page_primary_action {
+    margin-bottom: 20px;
+}
+
+.search-form.home .search-input.search-giant button {
+    margin-top: -15px;
+}
+span.dataset-star.label.label-inverse {
+    float: right;
+}
+span.dataset-star.label.label-inverse {
+    float: right;
+}
+p.dataset-tags {
+    margin: 5px 0 -15px;
+    font-style: italic;
+}
+.dataset.data {
+    margin-left: 25px;
+}
+ul.dataset-resources.unstyled {
+    margin-bottom: 6px;
+}
+form.section.site-search.simple-input {
+    float: right;
+    margin-top: 75px;
+}
+.simple-input .field .btn-search {
+    margin-top: -10px;
+}
+.masthead .navigation .nav-pills {
+    margin-bottom: 8px;
+    margin-right: 160px;
+    float: right;
+}
+
+.firstrow {
+    height: 160px;
+}
+
+/*
+    Group Page
+*/
+
+.span6.group {
+    margin-left: 0px;
+}
+
+a.btn.btn-primary.group {
+    float: right;
+}
+
+h1.page-error-heading {
+    text-align: center;
+    color: black;
+    font-size: 37px;
+}
+
+p.error {
+    text-align: center;
+    color: #717070;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+p.image-text {
+	text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: #71708A;
+    margin-top: 28px;
+}
+
+img.premium {
+    max-width: 4%;
+}
+
+/*
+    Buttons
+*/
+a.btn.btn-warning {
+    border: none;
+}
+
+a.btn.btn-danger  {
+    border: none;
+}
+
+a.btn.btn-primary {
+	background-color: #200a7a;
+	background-image: none;
+}

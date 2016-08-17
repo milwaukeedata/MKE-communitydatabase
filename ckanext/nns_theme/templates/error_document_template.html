@@ -1,0 +1,28 @@
+{% extends "page.html" %}
+
+{% block subtitle %}{{ gettext('Error %(error_code)s', error_code=c.code[0]) }}{% endblock %}
+
+{% block primary %}
+  <article class="module">
+    <div class="module-content">
+	<h1 class="page-error-heading">{{ "Wait, what? (404 Error)" }}</h1>
+      <p class="error">
+        This isn't the page you were looking for, or our site is having an issue.<br>
+	Try using the menu above to find what you are looking for<br>
+	In the meantime, enjoy this mural, located in Milwaukee in the Layton Boulevard West neighborhood. 
+      </p>
+	<img src="/base/images/Layton-big.jpg" alt="Layton Boulevard Mural" title="Layton Boulevard Mural">
+	<p class="image-text">Courtesy of the Milwaukee Mural Project</p>
+	
+    </div>
+  </article>
+{% endblock %}
+{% block breadcrumb %}
+{% endblock %}
+
+{% block flash %}
+  {# eat the flash messages caused by the 404 #}
+  {% set flash_messages = h.flash.pop_messages() %}
+{% endblock %}
+
+{% block secondary %}{% endblock %}

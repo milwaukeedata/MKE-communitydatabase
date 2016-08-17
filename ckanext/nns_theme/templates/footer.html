@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="container">
+    {% block footer_content %}
+    <div class="row">
+      <div class="span7 footer-links">
+        {% block footer_nav %}
+          <ul class="unstyled">
+            {% block footer_links %}
+              <li><b><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></b></li>
+            {% endblock %}
+          </ul>
+          <ul class="unstyled">
+            {% block footer_links_contact %}
+              <p>The Milwaukee Poverty Database is a project of the Milwaukee Neighborhood News Service, in partnership with Marquette University's Diedrich College of Communication and the Milwaukee Data Initiative.<p>
+            {% endblock %}
+          </ul>
+        {% endblock %}
+      </div>
+      <div class="span5 attribution">
+        {% block footer_attribution %}
+	<a href="http://www.mkecommunitydata.com/pages/privacy-policy">{{ _('Privacy Policy') }} </a> |
+	<a href="http://www.mkecommunitydata.com/pages/usage-policy">{{ _('Usage Policy') }}</a> |
+	<a href="{{ h.url_for('contact_form') }}">{{ _('Contact') }} </a>
+        <p>{% trans %}<strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a>{% endtrans %}</p>
+	<a href="http://www.opendefinition.org/okd/"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}"></a>
+        {% endblock %}
+      </div>
+    </div>
+    {% endblock %}
+  </div>
+
+  {% block footer_debug %}
+    {% if g.debug %}
+      {% include 'snippets/debug.html' %}
+    {% endif %}
+  {% endblock %}
+</footer>
+
